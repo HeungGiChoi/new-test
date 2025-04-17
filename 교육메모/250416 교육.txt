@@ -1,0 +1,19 @@
+## 코딩온 교육
+- Pandas
+ * pandas는 키값 인덱스와 숫자 인덱스 둘 다로 접근 가능하다
+
+@@ Pandas 실습 3, 5 금요일에 개인적으로 실습 후 금요일이나 
+그 다음주 월요일 풀이
+
+div.txt-wrapper > p.title
+
+mkdir test_repository
+cd test_repository
+
+echo "#제목" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HeungGiChoi/test_repository.git
+git push -u origin main
