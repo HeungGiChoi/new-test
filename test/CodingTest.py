@@ -53,18 +53,66 @@
 #         return 2
     
 ## 짝수 홀수 개수
-def solution(num_list):
-    j = 0
-    h = 0
-    for i in num_list:
-        if i % 2 == 0:
-            j+=1
-        else:
-            h+=1
-    result = [j, h]
-    return result
+# def solution(num_list):
+#     j = 0
+#     h = 0
+#     for i in num_list:
+#         if i % 2 == 0:
+#             j+=1
+#         else:
+#             h+=1
+#     result = [j, h]
+#     return result
 
-num_list = [1, 3, 5, 7]
-print(solution(num_list))
+# num_list = [1, 3, 5, 7]
+# print(solution(num_list))
 
+## 아이스아메리카노 한잔 5,500원
+# def solution(money):
+#     return list(divmod(money, 5500))
+
+# print(solution(15000))
+
+## 문자 반복 출력
+# def solution(my_string, n):
+#     answer = ""
+#     for i in my_string:
+#         for j in range(n):
+#             answer += i
+#     return answer
+
+## 편지지 길이
+# def solution(message):
+#     return len(message) * 2
+
+# message = 'i love you~'
+# print(solution(message))        
+
+##삼각형의 완성조건 (1)
+# def solution(sides):
+#     max_val = max(sides)
+#     sides.remove(max(sides))
+#     if max_val < sum(sides):
+#         return 1
+#     else:
+#         return 2
+# sides = [1, 2, 3]
+# print(solution(sides))
+
+
+## 세균증식
+# def solution(n, t):
+#     for i in range(t):
+#         n = n * 2
+#     return n
+
+# print(solution(7, 15))
+
+## 최댓값 만들기
+# def solution(numbers):
+#     numbers.sort()
+
+numbers = [0, 31, 24, 10, 1, 9]
+numbers.sort()
+print(numbers)
 
