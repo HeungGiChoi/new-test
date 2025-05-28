@@ -110,9 +110,38 @@
 
 ## 최댓값 만들기
 # def solution(numbers):
-#     numbers.sort()
+#     a = max(numbers)
+#     numbers.remove(a)
+#     b = max(numbers)
+#     return a * b
 
-numbers = [0, 31, 24, 10, 1, 9]
-numbers.sort()
-print(numbers)
+# numbers = [0, 31, 24, 10, 1, 9]
+# print(solution(numbers))
 
+## n의 배수 고르기
+# def solution(n, numlist):
+#     return [i for i in numlist if i % n == 0]
+
+# numlist = [2, 100, 120, 600, 12, 12]
+# n = 12
+# print(solution(n, numlist))
+
+##자릿수 더하기
+# def solution(n):
+#     t = 0
+#     for i in str(n):
+#         t += int(i)
+#     return t
+
+# n = 930211
+# print(solution(n))
+
+## 키 더 큰사람 수
+def solution(array, height):
+    return sum(1 for i in array if i > height)
+
+array = [149, 180, 192, 170]
+height = 167
+print(solution(array, height))
+    
+            
